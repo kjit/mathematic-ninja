@@ -9,8 +9,8 @@ import java.util.List;
  */
 public class App {
 	public static void main(String[] args) {
-		System.out.println(BrownBelt.name);
+		System.out.println(BlackBelt.name);
 
-		new CalcRandomizer().randomizeBelt(BrownBelt.CALCULATIONS);
+		new CalcRandomizer().randomizeBelt(BlackBelt.CALCULATIONS);
 	}
 }
